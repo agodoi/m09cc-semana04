@@ -2,11 +2,11 @@
 
 ## Objetivos
 
-### * Atividade prática para aplicação dos conceitos da camada física de redes de computadores;
-### * Entendimento do bit-a-bit de uma transmissão TX/RX;
-### * Entendimento da tabela ASCII;
-### * Análise por no gráfico do sinal usando osciloscópio;
-### * Responder ao desafio do Kahoot durante a aula;
+* Atividade prática para aplicação dos conceitos da camada física de redes de computadores;
+* Entendimento do bit-a-bit de uma transmissão TX/RX;
+* Entendimento da tabela ASCII;
+* Análise por no gráfico do sinal usando osciloscópio;
+* Responder ao desafio do Kahoot durante a aula;
 
 
 ## Sinal no Cabeamento numa Transmissão/Recepção
