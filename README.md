@@ -20,7 +20,7 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 - Por exemplo, vamos enviar a letra ```a```
 
 
-<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig1.png" width="400">
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig1.png" width="500">
 
 
 ## (3) Tabela ASCII
@@ -55,7 +55,7 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 
 👉 É chamada assíncrona porque não existe um fio de clock.
 
-<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig4.png" width="800">
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig4.png" width="500">
 Obs: o trem de pulsos do gráfico não bate com a sequência binária. GPT está desobediente. 
 
 ## (5) Roteiro Prático Simulado
