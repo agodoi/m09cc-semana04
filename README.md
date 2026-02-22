@@ -27,7 +27,7 @@ American Standard Code for Information Interchange
 O computador não envia letras, envia números.
 Esses números são representados em binário e transmitidos como sinais elétricos.
 
-<img src="https://github.com/agodoi//blob/main/imgs/fig1.png" width="400">
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig1.png" width="400">
 
 
 Portanto:
