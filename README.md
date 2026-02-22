@@ -59,7 +59,37 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 👉 É chamada assíncrona porque não existe um fio de clock.
 
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig4.png" width="500">
-Obs: o trem de pulsos do gráfico não bate com a sequência binária. GPT está desobediente. 
+Obs: o trem de pulsos do gráfico não bate com a sequência binária. GPT está desobediente.
+
+## Outras configurações possíveis do UART
+
+O UART permite diferentes formatos de frame, variando quantidade de bits de dados, uso de paridade e número de bits de parada.
+
+| Configuração | Bits de dados | Paridade | Bits de stop | Total de bits no frame* | Quando é usada / Observação |
+|-------------|--------------|----------|--------------|--------------------------|------------------------------|
+| **8N1** | 8 | Nenhuma | 1 | 10 | Padrão mais comum em Arduino, ESP32 e PCs |
+| **7E1** | 7 | Par (Even) | 1 | 10 | Sistemas antigos, telemetria e comunicação com modems |
+| **7O1** | 7 | Ímpar (Odd) | 1 | 10 | Equipamentos industriais legados |
+| **8E1** | 8 | Par (Even) | 1 | 11 | Quando precisa de detecção simples de erro |
+| **8O1** | 8 | Ímpar (Odd) | 1 | 11 | Alternativa à paridade par para verificação |
+| **8N2** | 8 | Nenhuma | 2 | 11 | Usado quando receptor precisa de mais tempo para processar |
+| **7E2** | 7 | Par (Even) | 2 | 11 | Protocolos industriais específicos |
+
+\*Total de bits considera: **1 start + dados + paridade (se houver) + stop**
+
+### Exemplo de leitura
+
+- **8N1** → 1 start + 8 dados + 1 stop = 10 bits  
+- **8E1** → 1 start + 8 dados + 1 paridade + 1 stop = 11 bits  
+- **8N2** → 1 start + 8 dados + 2 stop = 11 bits  
+
+### Observação importante
+
+Maior número de bits no frame significa:
+
+- mais confiabilidade (detecção de erro / sincronização)
+- porém menor eficiência (mais bits para enviar o mesmo dado)
+
 
 # Kahoot - Pergunta 3
 
