@@ -44,7 +44,7 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 
 ## (4) Kahoot (pergunta teste) Conversão de base numérica
 
-## (X) Comunicação UART TX/RX e como Por No Gráfico
+## (5) Comunicação UART TX/RX e como Por No Gráfico
 
 * UART = Universal Asynchronous Receiver/Transmitter
 * É um método de comunicação serial que:
@@ -58,15 +58,15 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig4.png" width="500">
 Obs: o trem de pulsos do gráfico não bate com a sequência binária. GPT está desobediente. 
 
-## (5) Roteiro Prático Simulado
+## (6) Roteiro Prático Simulado
 
-**(5.1)** Abra o [https://www.tinkercad.com/dashboard]
+**(6.1)** Abra o [https://www.tinkercad.com/dashboard]
 
-**(5.2)** Monte este circuito
+**(6.2)** Monte este circuito
 
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig3.png" width="500">
 
-**(5.3)** Use esse código no Arduino TX
+**(6.3)** Use esse código no Arduino TX
 
 ```
 // C++ code
@@ -83,7 +83,7 @@ void loop()
 }
 ```
 
-**(5.4)** Use esse código no Arduino RX
+**(6.4)** Use esse código no Arduino RX
 
 ```
 // C++ code
@@ -99,23 +99,59 @@ void loop() {
   }
 }
 ```
-**(5.5)** Configure o osciloscópio para 500us no tempo/div;
+**(6.5)** Configure o osciloscópio para 500us no tempo/div;
 
-**(5.6)** Dê play no simulador do Tinkercad;
+**(6.6)** Dê play no simulador do Tinkercad;
 
-**(5.7)** Dê o máximo de zoom na tela do oscilas até preencher quase toda a sua tela do PC e tire um print para congelar a imagem. Observando este print, responda:
+**(6.7)** Dê o máximo de zoom na tela do oscilas até preencher quase toda a sua tela do PC e tire um print para congelar a imagem. Observando este print, responda:
 
-**(5.8)** Olhando para o desenho, encontre os bits do caracter que está sendo transmitido no software;
+**(6.8)** Olhando para o desenho, encontre os bits do caracter que está sendo transmitido no software;
 
-**(5.9)** Agora, identifique onde está o **bit start** e o **bit stop** e marque-os com a ajuda de um POST-IT sobre a sua tela. Desjeito assim:
+**(6.9)** Agora, identifique onde está o **bit start** e o **bit stop** e marque-os com a ajuda de um POST-IT sobre a sua tela. Desjeito assim:
 
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig6.jpeg" width="500">
 
-**(5.10)** Percebe o **bit stop** está à direita do dado no gráfico? E que o **bit start** está à esquerda? Por que isso?
+**(6.10)** Percebe o **bit stop** está à direita do dado no gráfico? E que o **bit start** está à esquerda? Por que isso?
 
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig5.jpeg" width="500">
 
-**(5.11)** Tome cuidado para não sair do Kahoot. Tire uma foto da sua tela mostrando o post-it marcando 2 QUADROS sinalizando START - DADO - STOP de cada quadro. Envie esta foto para o professor via slack para deixar registrado.
+**(6.11)** Tome cuidado para não sair do Kahoot. Tire uma foto da sua tela mostrando o post-it marcando 2 QUADROS sinalizando START - DADO - STOP de cada quadro. Envie esta foto para o professor via slack para deixar registrado.
 
+## (7) Comunicação UART TX/RX no Osciloscópio
+
+**(7.1)** Forme um grupo de 5 pessoas;
+
+**(7.2)** Pegue com o professor um kit:
+
+- 01 Arduino Uno;
+- 01 Oscilosópio;
+- 01 ponta de prova.
+- 01 cabo USB para gravar o Arduino;
+- jumpers para ler dados.
+
+**(7.3)** Grave o seguinte código no Arduino Uno:
+
+```
+// C++ code
+//
+
+void setup()
+{
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.write("a");
+}
+```
+
+**(7.4)** Conecte a ponta de prova do osciloscópio no pino TX do Uno usando um jumper macho-macho;
+
+**(7.5)** Ligue o oscilas e pressione o botão RUN/STOP que fica no canto direito superior olhando para o aparelho;
+
+**(7.6)** Tente congelar o sinal no display mexendo lentamente no botão TRIGGER, que também fica à direita olhando para o aparelho;
+
+**(7.7)** Você também pode ajusar melhor o sinal para o centro da tela mexendo no botão < POSITION>, e também, pode esticar o sinal girando no botão SEC/DIV para a direita. Volte no item **(7.6)** para recongelar o sinal;
 
 
