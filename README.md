@@ -108,6 +108,7 @@ Número de `1`s = 2 (par)
 
 * Paridade **par** → bit = `0` (continua par)
 * Paridade **ímpar** → bit = `1` (fica ímpar)
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig7.png" width="500">
 
 
 # Kahoot - Pergunta 3
@@ -167,7 +168,7 @@ void loop() {
 
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig6.jpeg" width="500">
 
-**(5.10)** Percebe o **bit stop** está à direita do dado no gráfico? E que o **bit start** está à esquerda? Por que isso? Para manter a sua autonomia, caso não saiba a resposta, pode jogar no GPTo que ele te responde ou pode perguntar para o prof.
+**(5.10)** Percebe o **bit stop** está à direita do dado no gráfico? E que o **bit start** está à esquerda? Por que isso? Para manter a sua autonomia, caso não saiba a resposta, pode jogar no GPTo que ele te responde ou pode perguntar para o prof. Note também que o LSB (Least Significant Bit) é o primeiro a ser transmitido
 
 **(5.11)** Tome cuidado para não sair do Kahoot. Tire uma foto da sua tela mostrando o post-it marcando 2 QUADROS sinalizando START - DADO - STOP de cada quadro. Envie esta foto para o professor via slack para deixar registrado.
 
