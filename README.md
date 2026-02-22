@@ -105,4 +105,13 @@ void loop() {
 
 **(5.7)** Dê o máximo de zoom na tela do oscilas até preencher quase toda a sua tela do PC e tire um print para congelar a imagem. Observando este print, responda:
 
-**(5.8)** 
+**(5.8)** Olhando para o desenho, encontre os bits do caracter que está sendo transmitido no software;
+
+**(5.9)** Agora, identifique onde está o **bit start** e o **bit stop**.
+
+**(5.10)** Percebe o **bit stop** está à direita do dado no gráfico? E que o **bit start** está à esquerda? Por que isso?
+
+
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig5.jpeg" width="500">
+
+
