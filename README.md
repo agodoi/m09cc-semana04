@@ -44,6 +44,18 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 
 ## (4) Kahoot (pergunta teste) Conversão de base numérica
 
+## (X) Comunicação UART TX/RX
+
+* UART = Universal Asynchronous Receiver/Transmitter
+* É um método de comunicação serial que:
+  - envia dados bit a bit;
+  - usa apenas um fio para transmitir (TX) e outro para receber (RX);
+  - não usa clock compartilhado;
+  - sincroniza cada byte usando start e stop bits.
+👉 É chamada assíncrona porque não existe um fio de clock.
+
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig4.jpg" width="800">
+
 ## (5) Roteiro Prático Simulado
 
 **(5.1)** Abra o [https://www.tinkercad.com/dashboard]
@@ -85,4 +97,10 @@ void loop() {
   }
 }
 ```
+**(5.5)** Configure o osciloscópio para 500us no tempo/div;
 
+**(5.6)** Dê play no simulador do Tinkercad;
+
+**(5.7)** Dê o máximo de zoom na tela do oscilas até preencher quase toda a sua tela do PC e tire um print para congelar a imagem. Observando este print, responda:
+
+**(5.8)** 
