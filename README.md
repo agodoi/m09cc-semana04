@@ -50,6 +50,39 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 
 **(5.2)** Monte este circuito
 
-<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/simulacao.png" width="800">
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig3.png" width="800">
 
+**(5.3)** Use esse código no Arduino TX
+
+```
+// C++ code
+//
+
+void setup()
+{
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.write("a");
+}
+```
+
+**(5.4)** Use esse código no Arduino RX
+
+```
+// C++ code
+//
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    char c = Serial.read();   // lê 1 byte
+  }
+}
+```
 
