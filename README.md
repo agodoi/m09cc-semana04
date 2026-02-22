@@ -1,6 +1,6 @@
 # Aplicação da Camada
 
-## Objetivos
+## (1) Objetivos
 
 * Atividade prática para aplicação dos conceitos da camada física de redes de computadores;
 * Entendimento do bit-a-bit de uma transmissão TX/RX;
@@ -9,7 +9,7 @@
 * Responder ao desafio do Kahoot durante a aula;
 
 
-## Sinal no Cabeamento numa Transmissão/Recepção
+## (2) Sinal no Cabeamento numa Transmissão/Recepção
 
 Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 
@@ -23,7 +23,7 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig1.png" width="400">
 
 
-## Tabela ASCII
+## (3) Tabela ASCII
 
 * American Standard Code for Information Interchange
 
@@ -42,4 +42,14 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 3) O binário vira sinal elétrico
 4) O sinal viaja pelo fio
 
-## 
+## (4) Kahoot (pergunta teste) Conversão de base numérica
+
+## (5) Roteiro Prático Simulado
+
+**(5.1)** Abra o [https://www.tinkercad.com/dashboard]
+
+**(5.2)** Monte este circuito
+
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/simulacao.png" width="800">
+
+
