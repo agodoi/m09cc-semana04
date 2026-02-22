@@ -107,13 +107,15 @@ void loop() {
 
 **(5.8)** Olhando para o desenho, encontre os bits do caracter que está sendo transmitido no software;
 
-**(5.9)** Agora, identifique onde está o **bit start** e o **bit stop** e marque-os com a ajuda de um POST-IT sobre a sua tela.
+**(5.9)** Agora, identifique onde está o **bit start** e o **bit stop** e marque-os com a ajuda de um POST-IT sobre a sua tela. Desjeito assim:
 
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig6.jpeg" width="500">
 
 **(5.10)** Percebe o **bit stop** está à direita do dado no gráfico? E que o **bit start** está à esquerda? Por que isso?
 
-
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig5.jpeg" width="500">
+
+**(5.11)** Tome cuidado para não sair do Kahoot. Tire uma foto da sua tela mostrando o post-it marcando 2 QUADROS sinalizando START - DADO - STOP de cada quadro. Envie esta foto para o professor via slack para deixar registrado.
+
 
 
