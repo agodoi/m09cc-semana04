@@ -24,6 +24,8 @@ American Standard Code for Information Interchange
 
 É um padrão que associa cada caractere a um número.
 
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig2.png" width="400">
+
 O computador não envia letras, envia números.
 Esses números são representados em binário e transmitidos como sinais elétricos.
 
