@@ -17,6 +17,10 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 - não são pacotes ainda;
 - são bits elétricos;
 - conjunto de bits formam bytes, conjunto de bytes formam dados.
+- Por exemplo, vamos enviar a letra ```a```
+
+
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig1.png" width="400">
 
 ## Tabela ASCII
 
@@ -30,7 +34,7 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 
 * Esses números são representados em binário e transmitidos como sinais elétricos.
 
-<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig1.png" width="400">
+
 
 
 Portanto:
