@@ -13,9 +13,9 @@
 
 Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 
-- não são letras
-- não são pacotes ainda
-- são bits elétricos
+- não são letras;
+- não são pacotes ainda;
+- são bits elétricos;
 - conjunto de bits formam bytes, conjunto de bytes formam dados.
 
 ## Tabela ASCII
