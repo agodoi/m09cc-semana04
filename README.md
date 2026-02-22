@@ -44,7 +44,7 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 
 ## (4) Kahoot (pergunta teste) Conversão de base numérica
 
-## (X) Comunicação UART TX/RX 
+## (X) Comunicação UART TX/RX e como Por No Gráfico
 
 * UART = Universal Asynchronous Receiver/Transmitter
 * É um método de comunicação serial que:
@@ -56,6 +56,7 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 👉 É chamada assíncrona porque não existe um fio de clock.
 
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig4.png" width="800">
+Obs: o trem de pulsos do gráfico não bate com a sequência binária. GPT está desobediente. 
 
 ## (5) Roteiro Prático Simulado
 
