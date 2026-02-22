@@ -63,7 +63,7 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 
 **(5.2)** Monte este circuito
 
-<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig3.png" width="800">
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig3.png" width="500">
 
 **(5.3)** Use esse código no Arduino TX
 
