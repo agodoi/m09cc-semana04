@@ -52,6 +52,7 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
   - usa apenas um fio para transmitir (TX) e outro para receber (RX);
   - não usa clock compartilhado;
   - sincroniza cada byte usando start e stop bits.
+
 👉 É chamada assíncrona porque não existe um fio de clock.
 
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig4.png" width="800">
