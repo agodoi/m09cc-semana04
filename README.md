@@ -20,14 +20,15 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 
 ## Tabela ASCII
 
-American Standard Code for Information Interchange
+* American Standard Code for Information Interchange
 
-É um padrão que associa cada caractere a um número.
+* É um padrão que associa cada caractere a um número.
 
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig2.jpg" width="1200">
 
-O computador não envia letras, envia números.
-Esses números são representados em binário e transmitidos como sinais elétricos.
+* O computador não envia letras, envia números.
+
+* Esses números são representados em binário e transmitidos como sinais elétricos.
 
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig1.png" width="400">
 
