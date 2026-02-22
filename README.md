@@ -22,6 +22,7 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 
 <img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig1.png" width="400">
 
+
 ## Tabela ASCII
 
 * American Standard Code for Information Interchange
@@ -34,10 +35,7 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 
 * Esses números são representados em binário e transmitidos como sinais elétricos.
 
-
-
-
-Portanto:
+**Portanto:**
 
 1) Tabela ASCII associa cada caractere a um número
 2) Esse número vira binário
