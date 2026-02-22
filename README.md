@@ -44,7 +44,7 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
 
 ## (4) Kahoot (pergunta teste) Conversão de base numérica
 
-## (X) Comunicação UART TX/RX
+## (X) Comunicação UART TX/RX 
 
 * UART = Universal Asynchronous Receiver/Transmitter
 * É um método de comunicação serial que:
