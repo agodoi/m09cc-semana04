@@ -91,6 +91,25 @@ Maior número de bits no frame significa:
 - porém menor eficiência (mais bits para enviar o mesmo dado)
 
 
+O **bit de paridade** é um bit extra enviado junto com os dados para **detectar erros simples de transmissão**. Ele não corrige o dado. Como funciona?
+
+* Ele verifica se a quantidade de bits `1` no byte é:
+  - **Paridade par (Even):** o total de `1`s deve ser **par**
+  - **Paridade ímpar (Odd):** o total de `1`s deve ser **ímpar**
+* Se o receptor contar e o resultado não bater, sabe que **houve erro no envio**. Exemplo:
+
+Dados:
+
+```
+01000001   (letra 'A')
+```
+
+Número de `1`s = 2 (par)
+
+* Paridade **par** → bit = `0` (continua par)
+* Paridade **ímpar** → bit = `1` (fica ímpar)
+
+
 # Kahoot - Pergunta 3
 
 # Kahoot - Pergunta 4
