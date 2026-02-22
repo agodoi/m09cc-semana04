@@ -154,4 +154,6 @@ void loop()
 
 **(7.7)** Você também pode ajusar melhor o sinal para o centro da tela mexendo no botão < POSITION>, e também, pode esticar o sinal girando no botão SEC/DIV para a direita. Volte no item **(7.6)** para recongelar o sinal;
 
+**(7.8)** O sinal está igual a este abaixo?
 
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig5.jpeg" width="500">
