@@ -107,7 +107,9 @@ void loop() {
 
 **(5.8)** Olhando para o desenho, encontre os bits do caracter que está sendo transmitido no software;
 
-**(5.9)** Agora, identifique onde está o **bit start** e o **bit stop**.
+**(5.9)** Agora, identifique onde está o **bit start** e o **bit stop** e marque-os com a ajuda de um POST-IT sobre a sua tela.
+
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig6.jpeg" width="500">
 
 **(5.10)** Percebe o **bit stop** está à direita do dado no gráfico? E que o **bit start** está à esquerda? Por que isso?
 
