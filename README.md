@@ -54,7 +54,7 @@ Quando enviamos uma mensagem pela rede, o que realmente viaja no fio?
   - sincroniza cada byte usando start e stop bits.
 👉 É chamada assíncrona porque não existe um fio de clock.
 
-<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig4.jpg" width="800">
+<img src="https://github.com/agodoi/m09cc-semana04/blob/main/assets/fig4.png" width="800">
 
 ## (5) Roteiro Prático Simulado
 
